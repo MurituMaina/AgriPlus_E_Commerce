@@ -1,0 +1,48 @@
+nav>ul>li>a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white
+
+}
+nav{
+    padding: 10px 0;
+    background-color: black;
+    ;
+}
+li>h1>a{
+    color: white;
+    text-decoration: none;
+    margin-left:0 ;
+    margin-right:200px;
+}
+li>#login{
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+}
+#getstarted{
+    font-size: 1em;
+    background-color: #ED661F;
+    color: white;
+    font-size: 1.5em;
+
+}
+.abt1{
+    background: url("../images/image 1.png");
+}
+.buying{
+    float: left;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    height:400px;
+    width: 50%;
+}
+.vegetables{
+    background: url("/assets/images/image\ 2.png");
+}
