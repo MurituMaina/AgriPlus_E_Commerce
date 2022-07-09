@@ -69,7 +69,6 @@ right:0;
     width: 50%;
 }
 .buying:first-child{
-    background-color: yellow;
     height: 400px;
     top:0;
     left:0;
@@ -164,7 +163,7 @@ margin-bottom: 10px;
     width:50%;
 }
 #see{
-    background-color: yellow;
+
     position: relative;
     float: right;
 }
@@ -291,7 +290,6 @@ footer {
     height: 400px;
     width: 150px;
     color: white;
-    border: #ED661F 10px solid;
 
 }
 
@@ -309,7 +307,6 @@ footer {
     display: block;
     width: 500px;
     height: 250px;
-    border: #ED661F 10px solid;
     
 
 }
@@ -324,7 +321,7 @@ footer {
 .others{
     display: block;
     text-decoration: none;
-    border: #ED661F 10px solid;
+    
     
 }
  a{
