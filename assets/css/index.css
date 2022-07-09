@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(211, 210, 211,0.9);
+
+}
 nav>ul>li>a {
     text-decoration: none;
 }
@@ -53,11 +57,44 @@ li>#login {
 .vegetables {
     background: url("/assets/images/image\ 2.png");
 }
+/* Most Popular  */
+.Catproducts{
+    background-color: white;
+    text-align: center;
+}
 
+#popular{
+display: flex;
+background-color: white;
+margin-bottom: 10px;
+
+}
+#popular img{
+    height: 100px;
+    width: 100px;
+}
+
+/* Newest Items */
+.new{
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 5px;
+}
+.images{
+    background-color: white;
+    display: flex;
+
+ 
+}
+.new img{
+    height: 100px;
+    width:100px;
+}
 /*Esteemed Customers Feedback */
 .customersfeedback {
     background-color: white;
     height: 300px;
+    margin-top: 10px;
 }
 
 .feedback {
