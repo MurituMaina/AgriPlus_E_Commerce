@@ -1,7 +1,4 @@
-body{
-    background-color: rgba(211, 210, 211,0.9);
-
-}
+/* Head and Nav Bar */
 nav>ul>li>a {
     text-decoration: none;
 }
@@ -42,36 +39,112 @@ li>#login {
 
 }
 
-.abt1 {
-    background: url("../images/image 1.png");
+/* Body */
+body{
+    background-color: lightgrey;
+    font-family: 'Poppins', 'Inter';
+    left:0 ;
+
+}
+/* First Section about AgriPlus */
+.Abt1{
+    /* background: url(../images/image\ 1.png); */
+    background-repeat: no-repeat ;
+    position: relative;
+    top:0;
+    left:0;
+}
+#apimg{
+    position: relative;
+    height: 500px;
+    width:100%;
+    top:0;
+right:0;
+    background-repeat: no-repeat;
+}
+#fruits{
+    position: absolute;
+    right:0;
+    top:300px;
+    width: 50%;
+}
+.buying:first-child{
+    background-color: yellow;
+    height: 400px;
+    top:0;
+    left:0;
+    position: relative;
+    z-index: -2;
 }
 
 .buying {
-    float: left;
+    /* background-image: url(../images/image\ 1.png); */
     background-repeat: no-repeat;
     margin-top: 0px;
-    height: 400px;
+    height: 300px;
     width: 50%;
+    z-index: 0;
+}   
+#users{
+    background-color: white;
+    display: flex;
+    box-shadow: 0 0 2px;
+    float: right;
+    align-content: center;
+    z-index: 1;
+    height: 100px;
 }
+#users>div{
+    margin:20px;
+}
+
 
 .vegetables {
     background: url("/assets/images/image\ 2.png");
+}
+button #explore {
+    background-color: #ED661F;
+    text-decoration: none;
+    color: white;
+}
+/* Why we exist Section */
+.whyweexist{
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    height: 300px;
+    width: 1230px;
+    padding: 50px;
+    z-index: -1;
+    left: 0;
+}
+#existtxt{
+    justify-content: left;
+    width: 50%;
+}
+#communicate{
+    justify-content: right;
+width: 50%;
 }
 /* Most Popular  */
 .Catproducts{
     background-color: white;
     text-align: center;
 }
-
+.Catproducts h3{
+    justify-content: center ;
+    font-family: 'Poppins', 'Inter';
+}
 #popular{
 display: flex;
 background-color: white;
+height: 30%;
 margin-bottom: 10px;
 
 }
 #popular img{
-    height: 100px;
-    width: 100px;
+    height: 50%;
+    width: 50%;
 }
 
 /* Newest Items */
@@ -87,26 +160,37 @@ margin-bottom: 10px;
  
 }
 .new img{
-    height: 100px;
-    width:100px;
+    height: 75%;
+    width:50%;
+}
+#see{
+    background-color: yellow;
+    position: relative;
+    float: right;
 }
 /*Esteemed Customers Feedback */
 .customersfeedback {
     background-color: white;
-    height: 300px;
+    height: 500px;
+    padding: 20px;
     margin-top: 10px;
+
 }
 
 .feedback {
     display: flex;
-    height: 100px;
+    padding: 20px;
+    height: 200px;
+    width: 1200px;
 }
 
 span {
 
     font-size: 2em;
 }
-
+.fa-star{
+    color: lightgrey;
+}
 .checked {
     color: #ED661F;
     font-size: 2em;
@@ -153,13 +237,30 @@ span {
 footer {
     background-color: white;
     color: white;
+
 }
 
 .subscribe {
     background-color: black;
-    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
     color: white;
-    height: 300px;
+    height: 150px;
+    padding: 100px;
+    font-size: 1.5em;
+    
+}
+.subscribe input{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Poppins', 'Inter';
+    align-self: center;
+}
+.subscribe button{
+    background-color: #ED661F;
+    color: white;
+    padding: 9px;
 }
 
 .footermore {
@@ -173,30 +274,66 @@ footer {
 .agri {
     width: 250px;
     padding: 1%;
+    color: white;
+}
+.footermore >div > i{
+    border-radius: 50%;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    align-items:center;
+    background-color: lightgrey; 
+    
 }
 
 .company {
     display: block;
     height: 400px;
     width: 150px;
+    color: white;
+    border: #ED661F 10px solid;
 
 }
 
-.company li {
+.company li a{
+    text-decoration: none;
+    padding: 10px;
+    width:20%;
+    color: white;
+        
+
+}
+
+
+.products {
+    display: block;
+    width: 500px;
+    height: 250px;
+    border: #ED661F 10px solid;
+    
+
+}
+.products li a{
+    
     text-decoration: none;
     padding: 10px;
     color: white;
 
 }
 
-.products {
+.others{
     display: block;
-
+    text-decoration: none;
+    border: #ED661F 10px solid;
+    
 }
+ a{
 
-.others {
-    display: block;
+    align-content: flex-start;
+    height: 200px;
+    color: white;
 
+    
 }
 
 img {

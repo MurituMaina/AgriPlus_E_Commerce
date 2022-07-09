@@ -1,13 +1,12 @@
-author-name
-project or program name
-description of the program
-program setup instructions
-link to the site on GitHub Pages
-Copyright and Licence Information
+
+# Author
+###### VINCENT MURITU MAINA
 # Table of Content
 
-
-Vincent Maina
+1. AgriPlus 
+2. AgriPlus Setup Instructions
+3. GitHub Access link
+4. Copyright and License Information
 
 
 # AgriPlus 
