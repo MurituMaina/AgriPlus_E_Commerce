@@ -1,80 +1,168 @@
-nav>ul>li>a{
+nav>ul>li>a {
     text-decoration: none;
 }
-li{
+
+li {
     display: inline-block;
     justify-content: center;
     margin-right: 10px;
     font-size: 1em;
     text-decoration: none;
     color: white
-
 }
-nav{
+
+nav {
     padding: 10px 0;
     background-color: black;
     ;
 }
-li>h1>a{
+
+li>h1>a {
     color: white;
     text-decoration: none;
-    margin-left:0 ;
-    margin-right:200px;
+    margin-left: 0;
+    margin-right: 200px;
 }
-li>#login{
+
+li>#login {
     color: white;
     text-decoration: none;
     margin-left: 200px;
 }
-#getstarted{
+
+#getstarted {
     font-size: 1em;
     background-color: #ED661F;
     color: white;
     font-size: 1.5em;
 
 }
-.abt1{
+
+.abt1 {
     background: url("../images/image 1.png");
 }
-.buying{
+
+.buying {
     float: left;
     background-repeat: no-repeat;
     margin-top: 0px;
-    height:400px;
+    height: 400px;
     width: 50%;
 }
-.vegetables{
+
+.vegetables {
     background: url("/assets/images/image\ 2.png");
 }
-footer{
+
+/*Esteemed Customers Feedback */
+.customersfeedback {
+    background-color: white;
+    height: 300px;
+}
+
+.feedback {
+    display: flex;
+    height: 100px;
+}
+
+span {
+
+    font-size: 2em;
+}
+
+.checked {
+    color: #ED661F;
+    font-size: 2em;
+}
+
+.feedback img {
+    height: 20px;
+    width: 20px;
+}
+
+#Rebecca {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+#John {
+
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 2px;
+    box-shadow: 0 0 5px grey;
+
+}
+
+#Lavington {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 2px;
+    box-shadow: 0 0 5px grey;
+}
+.feedback>a{
+    float:right;
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Section Begins Here */
+
+footer {
     background-color: white;
     color: white;
 }
-.subscribe{
+
+.subscribe {
     background-color: black;
     justify-content: center;
     color: white;
     height: 300px;
 }
-.footermore{
+
+.footermore {
     background-color: black;
     display: flex;
     color: white;
     height: 500px;
 
-}.agri{
-    width:250px;
-    padding: 1%;
-}
-.company{
-    display: inline-block;
-    height: 100px;
-}
-.products{
-    display: block;
 }
 
-img{
+.agri {
+    width: 250px;
+    padding: 1%;
+}
+
+.company {
+    display: block;
+    height: 400px;
+    width: 150px;
+
+}
+
+.company li {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+}
+
+.products {
+    display: block;
+
+}
+
+.others {
+    display: block;
+
+}
+
+img {
     height: 250px;
     width: 250px;
 }
