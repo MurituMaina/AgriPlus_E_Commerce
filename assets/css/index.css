@@ -317,4 +317,7 @@ object-fit: contain;
     width: 20px;
     height: 20px;
     font-size: 2em;
-    }
+ }
+.see:hover{
+    border-bottom: #ED661F 5px solid;
+}
