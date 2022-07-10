@@ -17,10 +17,10 @@ li {
 }
 
 nav {
-    display: inline-block;
-    padding: 10px 0;
+    display: flex;
+    padding: 10px 100px 10px 0px;
     background-color: black;
-    width: 100%;
+    
 }
 
 #agp {
@@ -47,8 +47,7 @@ li>#login {
     background-color: #ED661F;
     color: white;
     font-size: 1.5em;
-    position: absolute;
-    right: 0;
+    justify-content: flex-end;
 }
 
 button {
@@ -75,7 +74,7 @@ body {
 
 /* First Section about AgriPlus */
 .Abt1 {
-    /* background: url(../images/image\ 1.png); */
+
     background-repeat: no-repeat;
     position: relative;
     top: 0;
@@ -137,7 +136,7 @@ body {
     background-color: white;
     display: flex;
     float: right;
-    right: 200px;
+    right: 0;
     align-content: center;
     z-index: 1;
     height: 100px;
@@ -156,15 +155,20 @@ button #explore {
     color: white;
 }
 
+
 /* Why we exist Section */
+#uwhy{
+    border-bottom: #ED661F 5px solid;
+    color: black;
+    font-family: 'Poppins', 'Inter';
+    }
 .whyweexist {
-    background-color: white;
-    position: relative;
-    margin-top: 30px;
-    padding: 50px 0 50 50;
     display: flex;
-    font-size: 2em;
-    height: 400px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    padding: 50px;
+    font-size: 1em;
     width: 100%;
     z-index: -1;
     left: 0;
@@ -174,6 +178,12 @@ button #explore {
     height: 250px;
     width: 500px;
 }
+#why{
+    font-size: 1em;
+     color: black;
+     font-family: 'Poppins', 'Inter';
+}
+
 
 #existtxt {
     justify-content: left;
@@ -279,233 +289,6 @@ button #explore {
 #see {
     position: relative;
     float: right;
-}
-
-/*Esteemed Customers Feedback */
-.customersfeedback {
-    background-color: white;
-    height: 500px;
-    padding: 20px;
-    margin-top: 10px;
-}
-
-.feedback {
-    display: flex;
-    padding: 20px;
-    height: 200px;
-    width: 100%;
-    justify-content: center;
-}
-
-span {
-    color: lightgrey;
-    font-size: 1.5em;
-    margin: 5px;
-    justify-content: center;
-    left: 50px
-}
-
-.checked {
-    color: #ED661F;
-    font-size: 1.5em;
-}
-
-.feedback img {
-    float: left;
-    height: 20px;
-    width: 20px;
-}
-
-#Rebecca {
-    height: 300px;
-    width: 300px;
-    margin: 30px;
-    padding: 10px;
-    font-size: 1.5em;
-    box-shadow: 0 0 5px grey;
-}
-
-#Rebecca p,
-#John p,
-#Lavington p {
-    margin: 20px;
-    padding: 20px;
-    justify-content: center;
-}
-
-#Rebecca:hover,
-#John:hover,
-#Lavington:hover {
-    transform: scale(1.05);
-}
-
-#Rebecca,
-#John,
-#Lavington {
-    height: 280px;
-    width: 300px;
-    margin: 30px;
-    font-size: 1.5em;
-    font-family: 'Poppins', 'Inter';
-    justify-content: center;
-    padding: 2px;
-    box-shadow: 0 0 5px grey;
-}
-
-#Rebecca img,
-#John img,
-#Lavington img {
-    margin-left: 30px;
-    padding-right: 40px;
-    left: 10;
-    bottom: 5;
-}
-
-.feedback>a {
-    float: right;
-    text-decoration: none;
-    color: white;
-}
-
-/* Footer Section Begins Here */
-footer {
-    color: white;
-}
-
-.subscribe {
-    background-color: black;
-    text-align: center;
-    font-family: sans-serif;
-    color: white;
-    height: 150px;
-    padding: 25px 100px 100px 100px;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.subscribe input {
+    z-index: 1;
     color: black;
-    font-size: 2em;
-    text-align: center;
-    font-family: 'Poppins', 'Inter';
-    align-self: center;
-}
-
-.subscribe button {
-    background-color: #ED661F;
-    color: white;
-    padding: 9px;
-}
-
-.footermore {
-    background-color: black;
-    display: flex;
-    color: white;
-    padding: auto;
-    height: 1000px;
-    margin: 0 0 0 0;
-    height: 500px;
-    height: 1000px;
-    margin: 0 0 0 0;
-}
-
-.agri {
-    width: 25%;
-    padding: 1%;
-    color: white;
-}
-
-/* fab fa-apple */
-.footermore>div>i {
-    border-radius: 50%;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    left: 0;
-    background-color: lightgrey;
-}
-
-.footermore>div>i {
-    border-radius: 50%;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    left: 0;
-    background-color: lightgrey;
-}
-
-.footermorert {
-    display: flex;
-    justify-content: space-evenly;
-    color: green;
-    padding: auto;
-    height: 500px;
-    width: 75%;
-    border: 10px solid #ED661F;
-    fill: #ED661F;
-    background-color: yellow;
-}
-
-.footermorert ul li a {
-    text-decoration: none;
-}
-
-.company {
-    display: block;
-    width: 400px;
-    text-decoration: none;
-}
-
-.company {
-    display: block;
-    width: 400px;
-    text-decoration: none;
-    color: white;
-}
-
-.company ul p li a {
-    text-decoration: none;
-}
-
-.company li a {
-    text-decoration: none;
-}
-
-.company ul p li a {
-    text-decoration: none;
-    color: white;
-}
-
-.products {
-    display: block;
-    width: 400px;
-    width: 400px;
-    padding: 20px;
-}
-
-.products ul p li a {
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-}
-
-.others {
-    display: block;
-    width: 400px;
-    width: 400px;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    text-decoration: none;
-    align-content: flex-start;
-    height: 200px;
-    color: white;
-}
-
-#reserved {
-    color: white;
-    background-color: black;
 }

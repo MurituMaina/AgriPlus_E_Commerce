@@ -88,6 +88,7 @@ span {
 /* Footer Section Begins Here */
 footer {
     color: white;
+    background-color: black;
 }
 
 .subscribe {
@@ -103,7 +104,7 @@ footer {
 
 .subscribe input {
     color: black;
-    font-size: 2em;
+    font-size: 1.3em;
     text-align: center;
     font-family: 'Poppins', 'Inter';
     align-self: center;
@@ -112,7 +113,7 @@ footer {
 .subscribe button {
     background-color: #ED661F;
     color: white;
-    padding: 9px;
+    font-size: 1.3em;
 }
 
 .footermore {
@@ -120,85 +121,35 @@ footer {
     display: flex;
     color: white;
     padding: auto;
-    height: 1000px;
     margin: 0 0 0 0;
-    height: 500px;
-    height: 1000px;
-    margin: 0 0 0 0;
+    
 }
 
 .agri {
-    width: 25%;
-    padding: 1%;
+    width: 20%;
     color: white;
 }
 
 /* fab fa-apple */
-.footermore>div>i {
+/* .footermore>div>i {
     border-radius: 50%;
-    margin: 10px;
     height: 50px;
     width: 50px;
-    left: 0;
+    left: 20;
     background-color: lightgrey;
-}
+} */
 
-.footermore>div>i {
-    border-radius: 50%;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    left: 0;
-    background-color: lightgrey;
-}
-
-.footermorert {
-    display: flex;
-    justify-content: space-evenly;
-    color: green;
-    padding: auto;
-    height: 500px;
-    width: 75%;
-    border: 10px solid #ED661F;
-    fill: #ED661F;
-    background-color: yellow;
-}
-
-.footermorert ul li a {
-    text-decoration: none;
-}
-
-.company {
+.products, .company , .others {
     display: block;
-    width: 400px;
-    text-decoration: none;
-}
-
-.company {
-    display: block;
-    width: 400px;
+    width: 25%;
+    margin-left: 1%;
     text-decoration: none;
     color: white;
 }
 
 .company ul p li a {
     text-decoration: none;
-}
-
-.company li a {
-    text-decoration: none;
-}
-
-.company ul p li a {
-    text-decoration: none;
     color: white;
-}
-
-.products {
-    display: block;
-    width: 400px;
-    width: 400px;
-    padding: 20px;
 }
 
 .products ul p li a {
@@ -206,13 +157,6 @@ footer {
     text-decoration: none;
     padding: 10px;
     color: white;
-}
-
-.others {
-    display: block;
-    width: 400px;
-    width: 400px;
-    text-decoration: none;
 }
 
 a {
@@ -226,4 +170,7 @@ a {
 #reserved {
     color: white;
     background-color: black;
+    font-family: 'Poppins', "Inter";
+    padding: 1%;
+    text-align: center;
 }
