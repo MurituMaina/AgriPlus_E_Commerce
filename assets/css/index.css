@@ -43,10 +43,6 @@ li>#login {
 
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 button {
     font-size: 1em;
     background-color: #ED661F;
@@ -60,24 +56,11 @@ button {
     transform: scale(1.5);
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 /* Body */
 body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
     left: 0;
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
-
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 
 }
 
@@ -122,22 +105,20 @@ body {
     z-index: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #buyingtext {
     position: absolute;
     width: 50%;
     font-size: 1.5em;
-=======
+}
+
 .buyingtext {
     position: absolute;
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
+}
+
 #buyingtext {
     position: absolute;
     width: 50%;
     font-size: 1.5em;
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     top: 8px;
     left: 16px;
     z-index: 1;
@@ -207,16 +188,10 @@ button #explore {
 .Catproducts h1 {
     justify-content: center;
     font-family: 'Poppins', 'Inter';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
-
 }
 
 #popular img:hover {
     transform: scale(1.5);
-<<<<<<< HEAD
 }
 
 #popular {
@@ -227,11 +202,6 @@ button #explore {
 
 }
 
-=======
-    border-bottom: 5px #ED661F solid;
-=======
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
-}
 
 #popular {
     display: flex;
@@ -241,7 +211,6 @@ button #explore {
 
 }
 
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 #popular img {
     height: 50%;
     width: 50%;
@@ -264,21 +233,18 @@ button #explore {
     height: 25%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 .new div:hover {
     transform: scale(1.15);
 }
 
 .Catproducts h2::after {
-<<<<<<< HEAD
-=======
+    border-bottom: #ED661F solid 2px;
+}
+
 .Catproducts h2 {
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
+
+
     float: left;
     border-bottom: #ED661F 4px solid;
 }
@@ -293,7 +259,7 @@ button #explore {
 .new img {
     height: 75%;
     width: 50%;
-<<<<<<< HEAD
+
 }
 
 #see {
@@ -302,8 +268,8 @@ button #explore {
     float: right;
 }
 
-=======
-}
+
+
 
 #see {
 
@@ -311,7 +277,6 @@ button #explore {
     float: right;
 }
 
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 /*Esteemed Customers Feedback */
 .customersfeedback {
     background-color: white;
@@ -333,6 +298,9 @@ button #explore {
 span {
     color: lightgrey;
     font-size: 1.5em;
+    margin:5px;
+    justify-content: center;
+    left:50px
 
 }
 
@@ -348,14 +316,15 @@ span {
 }
 
 #Rebecca {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 30px;
     padding: 10px;
+    font-size: 1.5em;
     box-shadow: 0 0 5px grey;
 }
 
-#Rebecca p {
+#Rebecca p, #John p, #Lavington p {
     margin: 20px;
     padding: 20px;
     justify-content: center;
@@ -364,18 +333,29 @@ span {
 
 #John {
 
-    height: 200px;
-    width: 200px;
+    height: 280px;
+    width: 300px;
     margin: 30px;
+    font-size: 1.5em;
+    font-family: 'Poppins', 'Inter';
+    justify-content: center;
     padding: 2px;
     box-shadow: 0 0 5px grey;
 
 }
+#John img{
+    margin-left: 30px;
+    padding-right: 40px;
+    left:10;
+    bottom:5;
+}
 
 #Lavington {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 30px;
+    font-size: 1.5em;
+    font-family: 'Poppins', 'Inter';
     padding: 2px;
     box-shadow: 0 0 5px grey;
 }
@@ -424,17 +404,17 @@ footer {
     display: flex;
     color: white;
     padding: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
     height: 1000px;
     margin: 0 0 0 0;
-=======
+
     height: 500px;
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
+
+
     height: 1000px;
     margin: 0 0 0 0;
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
 
 }
 
@@ -447,8 +427,8 @@ footer {
 
 /* fab fa-apple */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 .footermore>div>i {
     border-radius: 50%;
     margin: 10px;
@@ -456,12 +436,10 @@ footer {
     width: 50px;
     left: 0;
     background-color: lightgrey;
+}
 
-=======
-.footermore>div> i {
-=======
 .footermore>div>i {
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
     border-radius: 50%;
     margin: 10px;
     height: 50px;
@@ -471,7 +449,7 @@ footer {
 
 }
 
-<<<<<<< HEAD
+
 .footermorert {
     display: flex;
     justify-content: space-evenly;
@@ -485,37 +463,41 @@ footer {
 
 
 }
-.footermorert ul li a{
+
+.footermorert ul li a {
     text-decoration: none;
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+
 }
 
 .company {
     display: block;
-<<<<<<< HEAD
+
     width: 400px;
     text-decoration: none;
-=======
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
+
+}
+
 .company {
     display: block;
     width: 400px;
     text-decoration: none;
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
     color: white;
 
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 .company ul p li a {
-=======
+    text-decoration: none;
+}
+
 .company li a {
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
+    text-decoration: none;
+}
+
 .company ul p li a {
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
     text-decoration: none;
     color: white;
 
@@ -523,27 +505,17 @@ footer {
 
 .products {
     display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 400px;
-=======
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
+
+
+
     width: 400px;
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
     padding: 20px;
 
 }
+.products ul p li a {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.products ul p li a {
-=======
-.products li a {
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
-.products ul p li a {
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -553,29 +525,22 @@ footer {
 
 .others {
     display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 400px;
-=======
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
     width: 400px;
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
     text-decoration: none;
 
 
 }
 
 a {
-<<<<<<< HEAD
-<<<<<<< HEAD
     text-decoration: none;
-=======
 
->>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
-=======
+
+
+
     text-decoration: none;
->>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
+
     align-content: flex-start;
     height: 200px;
     color: white;
