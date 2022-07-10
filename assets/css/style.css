@@ -48,7 +48,9 @@ span {
 #Lavington p {
     margin: 20px;
     padding: 20px;
+    font-size: 16px;
     justify-content: center;
+    font-style: bold;
 }
 
 #Rebecca:hover,
@@ -75,8 +77,7 @@ span {
 #Lavington img {
     margin-left: 30px;
     padding-right: 40px;
-    left: 10;
-    bottom: 5;
+    
 }
 
 .feedback>a {
@@ -89,6 +90,7 @@ span {
 footer {
     color: white;
     background-color: black;
+    padding: 50px;
 }
 
 .subscribe {
@@ -129,16 +131,49 @@ footer {
     width: 20%;
     color: white;
 }
+#app{
 
+    border-radius:20px;
+    display: inline;
+    box-shadow: 5px;
+    padding: 20px;
+    font-size: 1em;
+    background-color: grey;
+    color: black;
+    margin: 10px;
+    float: left;
+    height: 50px;
+    width: 200px;
+} #play{
+    border-radius:20px;
+    display: inline;
+    box-shadow: 5px;
+    padding: 20px;
+    font-size: 1em;
+    background-color: grey;
+    color: black;
+    margin: 10px;
+    float: left;
+    height: 50px;
+    width: 200px;
+    
+}
+#play img{
+    height:30px;
+}#app img{
+    height:40px;
+}
 /* fab fa-apple */
-/* .footermore>div>i {
+.footermore>div>i {
     border-radius: 50%;
     height: 50px;
     width: 50px;
     left: 20;
     background-color: lightgrey;
-} */
-
+}
+.footermore i{
+    font-size: 20px;
+}
 .products, .company , .others {
     display: block;
     width: 25%;

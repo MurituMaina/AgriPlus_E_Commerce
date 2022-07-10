@@ -1,3 +1,10 @@
+@media screen and (max-width:300px) {
+    
+}
+*{
+    width: auto;
+    font-family: 'Poppins', 'Inter';
+}
 /* Head and Nav Bar */
 nav>ul>li>a {
     text-decoration: none;
@@ -18,13 +25,22 @@ li {
 
 nav {
     display: flex;
-    padding: 10px 100px 10px 0px;
+    padding: 10px;
     background-color: black;
     
+}
+.menu{
+    display: inline;
+    margin: auto;
+    font-size: 1.2em;
+}
+.menu li a:hover{
+border-bottom: #ED661F 3px solid;
 }
 
 #agp {
     display: inline;
+    margin-right: 500px;
 }
 
 #agp:hover {
@@ -59,7 +75,7 @@ button {
 
 .explore:hover {
     padding: 50px;
-    box-shadow: 3px 3px 2px #ED661F;
+    box-shadow: 3px 3px 20px #ED661F;
     transform: scale(1.5);
 }
 
@@ -135,22 +151,25 @@ body {
 #users {
     background-color: white;
     display: flex;
-    float: right;
-    right: 0;
+    position: absolute;
+    justify-content: center;
+    right: 200px;
+    
     align-content: center;
     z-index: 1;
     height: 100px;
+    width: 50%;
     box-shadow: 0 0 2px lightgrey;
 }
 
 #users>div {
-    margin: 20px;
+    margin: 10px 30px;
 }
 
 button #explore {
     background-color: #ED661F;
     float: left;
-    z-index: 1;
+    border: none;
     text-decoration: none;
     color: white;
 }
@@ -169,7 +188,7 @@ button #explore {
     margin-top: 30px;
     padding: 50px;
     font-size: 1em;
-    width: 100%;
+    width:92.5%;
     z-index: -1;
     left: 0;
 }
@@ -224,6 +243,7 @@ button #explore {
     background-color: white;
     height: 30%;
     margin-bottom: 10px;
+    padding: 30px;
 }
 
 #popular {
