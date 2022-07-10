@@ -128,17 +128,15 @@ footer {
     color: red;
     box-shadow: 5px;
     height: 50px;
-    font-size: 1.2em;
     background-color: grey;
     color: black;
 } 
 #apps{
     display: grid;
     padding: 5px;
-    background-color:tomato ;
     height: 50px;
     width:5% ;
-    color: yellow;
+    
 
 }
 #app p{
@@ -150,7 +148,7 @@ footer {
     border-radius:20px;
     display: inline;
     box-shadow: 5px;
-    padding: 20px;
+    padding: 50px;
     font-size: 1em;
     background-color: grey;
     color: black;

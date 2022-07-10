@@ -32,7 +32,7 @@ nav {
 .menu{
     display: inline;
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .menu li a:hover{
 border-bottom: #ED661F 3px solid;
@@ -55,7 +55,7 @@ li>h1>a {
 li>#login {
     color: white;
     text-decoration: none;
-    margin-left: 200px;
+    margin-left:100px;
 }
 
 #getstarted {
@@ -67,10 +67,11 @@ li>#login {
 }
 
 button {
-    font-size: 1em;
     background-color: #ED661F;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    bottom: 20px;
+
 }
 
 .explore:hover {
@@ -185,10 +186,10 @@ button #explore {
     display: flex;
     background-color: white;
     color: black;
-    margin-top: 30px;
+    margin-top: 100px;
     padding: 50px;
     font-size: 1em;
-    width:50%;
+    width:93%;
     z-index: -1;
     left: 0;
 }
