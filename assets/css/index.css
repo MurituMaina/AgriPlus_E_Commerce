@@ -1,10 +1,6 @@
-body{
-    background-color: rgba(211, 210, 211,0.9);
-
-}
+/* Head and Nav Bar */
 nav>ul>li>a {
     text-decoration: none;
-    
 }
 
 li {
@@ -19,7 +15,7 @@ li {
 nav {
     padding: 10px 0;
     background-color: black;
-    ;
+    width: 100%;
 }
 
 li>h1>a {
@@ -43,77 +39,213 @@ li>#login {
 
 }
 
-.abt1 {
-    background: url("../images/image 1.png");
+/* Body */
+body {
+    background-color: lightgrey;
+    font-family: 'Poppins', 'Inter';
+    left: 0;
+
 }
 
-.buying {
-    float: left;
+/* First Section about AgriPlus */
+.Abt1 {
+    /* background: url(../images/image\ 1.png); */
     background-repeat: no-repeat;
-    margin-top: 0px;
-    height: 400px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#apimg {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+#fruits {
+    position: absolute;
+    right: 0;
+    top: 100px;
     width: 50%;
 }
 
-.vegetables {
-    background: url("/assets/images/image\ 2.png");
+.buying:first-child {
+    height: 400px;
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -1;
 }
-/* Most Popular  */
-.Catproducts{
+
+.buying {
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    height: 300px;
+    width: 100%;
+    z-index: 0;
+}
+
+.buyingtext {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 1;
+}
+
+#users {
     background-color: white;
-    text-align: center;
-}
-
-#popular{
-display: flex;
-background-color: white;
-margin-bottom: 10px;
-
-}
-#popular img{
+    display: flex;
+    float: right;
+    right: 200px;
+    align-content: center;
+    z-index: 1;
     height: 100px;
-    width: 100px;
+    box-shadow: 0 0 2px lightgrey;
+}
+
+#users>div {
+    margin: 20px;
+}
+
+button #explore {
+    background-color: #ED661F;
+    float: left;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+}
+
+/* Why we exist Section */
+.whyweexist {
+    background-color: white;
+    position: relative;
+    margin-top: 30px;
+    padding: 50px 0 50 50;
+    display: flex;
+    font-size: 2em;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+}
+
+#existtxt {
+    justify-content: left;
+    width: 50%;
+}
+
+#communicate {
+    float: inline-end;
+
+}
+
+/* Most Popular  */
+.product-feedback {
+
+    background-color: white;
+    padding: 50px;
+}
+
+.Catproducts {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 50px;
+}
+
+.Catproducts h1 {
+    justify-content: center;
+    font-family: 'Poppins', 'Inter';
+    border-bottom: 5px #ED661F solid;
+}
+
+#popular {
+    display: flex;
+    background-color: white;
+    height: 30%;
+    margin-bottom: 10px;
+
+}
+
+#popular img {
+    height: 50%;
+    width: 50%;
 }
 
 /* Newest Items */
-.new{
+.newest {
+    width: 100%;
+    background-color: white;
+    border-bottom: #ED661F;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.new {
     background-color: white;
     padding: 50px;
+    margin-top: 0;
     margin-bottom: 5px;
+    height: 25%;
 }
-.images{
+
+.Catproducts h2 {
+    float: left;
+    border-bottom: #ED661F 4px solid;
+}
+
+.images {
     background-color: white;
     display: flex;
 
- 
+
 }
-.new img{
-    height: 100px;
-    width:100px;
+
+.new img {
+    height: 75%;
+    width: 50%;
 }
+
+#see {
+
+    position: relative;
+    float: right;
+}
+
 /*Esteemed Customers Feedback */
 .customersfeedback {
     background-color: white;
-    height: 300px;
+    height: 500px;
+    padding: 20px;
     margin-top: 10px;
+
 }
 
 .feedback {
     display: flex;
-    height: 100px;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+
 }
 
 span {
+    color: lightgrey;
+    font-size: 1.5em;
 
-    font-size: 2em;
 }
 
 .checked {
     color: #ED661F;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .feedback img {
+    float: left;
     height: 20px;
     width: 20px;
 }
@@ -124,6 +256,13 @@ span {
     margin: 30px;
     padding: 10px;
     box-shadow: 0 0 5px grey;
+}
+
+#Rebecca p {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+
 }
 
 #John {
@@ -143,8 +282,9 @@ span {
     padding: 2px;
     box-shadow: 0 0 5px grey;
 }
-.feedback>a{
-    float:right;
+
+.feedback>a {
+    float: right;
     text-decoration: none;
     color: white;
 }
@@ -154,53 +294,123 @@ span {
 footer {
     background-color: white;
     color: white;
+
 }
 
 .subscribe {
     background-color: black;
-    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
     color: white;
-    height: 300px;
+    height: 150px;
+    padding: 100px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+}
+
+.subscribe input {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Poppins', 'Inter';
+    align-self: center;
+}
+
+.subscribe button {
+    background-color: #ED661F;
+    color: white;
+    padding: 9px;
 }
 
 .footermore {
     background-color: black;
     display: flex;
     color: white;
+    padding: auto;
     height: 500px;
 
 }
 
 .agri {
-    width: 250px;
+    width: 25%;
     padding: 1%;
+    color: white;
+}
+
+
+/* fab fa-apple */
+
+.footermore>div> i {
+    border-radius: 50%;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    left: 0;
+    background-color: lightgrey;
+
+}
+
+.footermorert {
+    display: flex;
+    justify-content: space-evenly;
+    color: green;
+    padding: auto;
+    height: 500px;
+    width: 75%;
+    border: 10px solid #ED661F;
+    fill: #ED661F;
+    background-color: yellow;
+
+
+}
+.footermorert ul li a{
+    text-decoration: none;
 }
 
 .company {
     display: block;
-    height: 400px;
-    width: 150px;
+    color: white;
 
 }
 
-.company li {
+.company li a {
     text-decoration: none;
-    padding: 10px;
     color: white;
 
 }
 
 .products {
     display: block;
+    padding: 20px;
+
+}
+
+.products li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
 
 }
 
 .others {
     display: block;
+    text-decoration: none;
+
+
+}
+
+a {
+
+    align-content: flex-start;
+    height: 200px;
+    color: white;
+
 
 }
 
 img {
     height: 250px;
-    width: 250px;
+    width: 500px;
 }
