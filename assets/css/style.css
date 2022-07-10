@@ -165,9 +165,10 @@ footer {
 }
 /* fab fa-apple */
 .footermore>div>i {
+    padding: 20px;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     left: 20;
     background-color: lightgrey;
 }
