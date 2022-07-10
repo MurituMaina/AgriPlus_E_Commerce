@@ -17,16 +17,22 @@ li {
 }
 
 nav {
+    display: inline-block;
+    
     padding: 10px 0;
     background-color: black;
     width: 100%;
+}
+#agp{ display: inline;
+}
+#agp:hover{
+    text-shadow: 5px 5px 10px #ED661F;
 }
 
 li>h1>a {
     color: white;
     text-decoration: none;
-    margin-left: 0;
-    margin-right: 200px;
+    
 }
 
 li>#login {
@@ -40,6 +46,8 @@ li>#login {
     background-color: #ED661F;
     color: white;
     font-size: 1.5em;
+    position:absolute;
+    right: 0;
 
 }
 
@@ -61,6 +69,7 @@ body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
     left: 0;
+    right:0;
 
 }
 
@@ -108,7 +117,7 @@ body {
 #buyingtext {
     position: absolute;
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .buyingtext {
@@ -194,8 +203,8 @@ img {
     font-family: 'Poppins', 'Inter';
 }
 
-#popular img:hover {
-    transform: scale(1.5);
+#carrots:hover, #cereals:hover, #fish:hover, #kales:hover {
+    transform: scale(1.2);
 }
 
 #popular {
@@ -237,7 +246,7 @@ img {
     height: 25%;
 }
 
-.new div:hover {
+#chicken:hover, #rice:hover, #mursik:hover, #tomatoes:hover {
     transform: scale(1.15);
 }
 
@@ -378,7 +387,7 @@ footer {
     font-family: sans-serif;
     color: white;
     height: 150px;
-    padding: 100px;
+    padding: 25px 100px 100px 100px;
     font-size: 1.5em;
     margin-bottom: 10px;
 
@@ -386,7 +395,7 @@ footer {
 
 .subscribe input {
     color: black;
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
     font-family: 'Poppins', 'Inter';
     align-self: center;
