@@ -3,6 +3,10 @@ nav>ul>li>a {
     text-decoration: none;
 }
 
+nav>ul>li>a:hover {
+    border-bottom: #ED661F 3px solid;
+}
+
 li {
     display: inline-block;
     justify-content: center;
@@ -39,11 +43,24 @@ li>#login {
 
 }
 
+button {
+    font-size: 1em;
+    background-color: #ED661F;
+    color: white;
+    font-size: 1.5em;
+}
+
+.explore:hover {
+    padding: 50px;
+    box-shadow: 3px 3px 2px #ED661F;
+    transform: scale(1.5);
+}
+
 /* Body */
 body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
-    left: 0;
+
 
 }
 
@@ -88,8 +105,10 @@ body {
     z-index: 0;
 }
 
-.buyingtext {
+#buyingtext {
     position: absolute;
+    width: 50%;
+    font-size: 1.5em;
     top: 8px;
     left: 16px;
     z-index: 1;
@@ -159,7 +178,11 @@ button #explore {
 .Catproducts h1 {
     justify-content: center;
     font-family: 'Poppins', 'Inter';
-    border-bottom: 5px #ED661F solid;
+
+}
+
+#popular img:hover {
+    transform: scale(1.5);
 }
 
 #popular {
@@ -192,7 +215,11 @@ button #explore {
     height: 25%;
 }
 
-.Catproducts h2 {
+.new div:hover {
+    transform: scale(1.15);
+}
+
+.Catproducts h2::after {
     float: left;
     border-bottom: #ED661F 4px solid;
 }
@@ -292,7 +319,6 @@ span {
 /* Footer Section Begins Here */
 
 footer {
-    background-color: white;
     color: white;
 
 }
@@ -328,7 +354,8 @@ footer {
     display: flex;
     color: white;
     padding: auto;
-    height: 500px;
+    height: 1000px;
+    margin: 0 0 0 0;
 
 }
 
@@ -341,40 +368,25 @@ footer {
 
 /* fab fa-apple */
 
-.footermore>div> i {
+.footermore>div>i {
     border-radius: 50%;
     margin: 10px;
-    height: 25px;
-    width: 25px;
+    height: 50px;
+    width: 50px;
     left: 0;
     background-color: lightgrey;
 
 }
 
-.footermorert {
-    display: flex;
-    justify-content: space-evenly;
-    color: green;
-    padding: auto;
-    height: 500px;
-    width: 75%;
-    border: 10px solid #ED661F;
-    fill: #ED661F;
-    background-color: yellow;
-
-
-}
-.footermorert ul li a{
-    text-decoration: none;
-}
-
 .company {
     display: block;
+    width: 400px;
+    text-decoration: none;
     color: white;
 
 }
 
-.company li a {
+.company ul p li a {
     text-decoration: none;
     color: white;
 
@@ -382,11 +394,12 @@ footer {
 
 .products {
     display: block;
+    width: 400px;
     padding: 20px;
 
 }
 
-.products li a {
+.products ul p li a {
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -396,13 +409,14 @@ footer {
 
 .others {
     display: block;
+    width: 400px;
     text-decoration: none;
 
 
 }
 
 a {
-
+    text-decoration: none;
     align-content: flex-start;
     height: 200px;
     color: white;
