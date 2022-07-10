@@ -188,14 +188,9 @@ button #explore {
     margin-top: 30px;
     padding: 50px;
     font-size: 1em;
-    width:92.5%;
+    width:50%;
     z-index: -1;
     left: 0;
-}
-
-.whyweexist img {
-    height: 250px;
-    width: 500px;
 }
 #why{
     font-size: 1em;
@@ -209,8 +204,12 @@ button #explore {
     width: 50%;
 }
 
-#communicate {
-    float: inline-end;
+#communicate img {
+    float:right;
+    width:50%;
+    height: auto;
+object-fit: contain;
+
 }
 
 /* Most Popular  */
@@ -272,7 +271,7 @@ button #explore {
     padding: 50px;
     margin-top: 0;
     margin-bottom: 5px;
-    height: 25%;
+    height: 400px;
 }
 
 #chicken:hover,
@@ -303,11 +302,19 @@ button #explore {
 .see {
     float: right;
     padding: 20px;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.see a{
     color: black;
+    background-color: white;
 }
 .fa-arrow-right{
     color: #ED661F;
-    width: 200px;
-    height: 200px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
     font-size: 2em;
     }
