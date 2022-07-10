@@ -60,7 +60,7 @@ SOFTWARE.
 
 VINCENT MAINA
 
-# [EMAIL](vincent.maina@student.moringaschool.com)
-# [LinkedIn](linked.com)
-# [Slack Profile](https://app.slack.com/client/T0101L740P4/C03M8T3BMM1/rimeto_profile/U03M625ANKX)
-# [Github Profile](https://github.com/MurituMaina)
+##### [EMAIL](vincent.maina@student.moringaschool.com)
+##### [LinkedIn](linked.com)
+##### [Slack Profile](https://app.slack.com/client/T0101L740P4/C03M8T3BMM1/rimeto_profile/U03M625ANKX)
+##### [Github Profile](https://github.com/MurituMaina)
