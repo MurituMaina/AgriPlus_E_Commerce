@@ -44,6 +44,9 @@ li>#login {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 button {
     font-size: 1em;
     background-color: #ED661F;
@@ -57,17 +60,24 @@ button {
     transform: scale(1.5);
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 /* Body */
 body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     left: 0;
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 
 }
 
@@ -113,6 +123,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #buyingtext {
     position: absolute;
     width: 50%;
@@ -121,6 +132,12 @@ body {
 .buyingtext {
     position: absolute;
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+#buyingtext {
+    position: absolute;
+    width: 50%;
+    font-size: 1.5em;
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     top: 8px;
     left: 16px;
     z-index: 1;
@@ -191,11 +208,15 @@ button #explore {
     justify-content: center;
     font-family: 'Poppins', 'Inter';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 
 }
 
 #popular img:hover {
     transform: scale(1.5);
+<<<<<<< HEAD
 }
 
 #popular {
@@ -208,6 +229,8 @@ button #explore {
 
 =======
     border-bottom: 5px #ED661F solid;
+=======
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 }
 
 #popular {
@@ -242,14 +265,20 @@ button #explore {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 .new div:hover {
     transform: scale(1.15);
 }
 
 .Catproducts h2::after {
+<<<<<<< HEAD
 =======
 .Catproducts h2 {
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     float: left;
     border-bottom: #ED661F 4px solid;
 }
@@ -396,11 +425,16 @@ footer {
     color: white;
     padding: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 1000px;
     margin: 0 0 0 0;
 =======
     height: 500px;
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+    height: 1000px;
+    margin: 0 0 0 0;
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
 
 }
 
@@ -414,6 +448,7 @@ footer {
 /* fab fa-apple */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footermore>div>i {
     border-radius: 50%;
     margin: 10px;
@@ -424,15 +459,19 @@ footer {
 
 =======
 .footermore>div> i {
+=======
+.footermore>div>i {
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     border-radius: 50%;
     margin: 10px;
-    height: 25px;
-    width: 25px;
+    height: 50px;
+    width: 50px;
     left: 0;
     background-color: lightgrey;
 
 }
 
+<<<<<<< HEAD
 .footermorert {
     display: flex;
     justify-content: space-evenly;
@@ -458,15 +497,25 @@ footer {
     text-decoration: none;
 =======
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+.company {
+    display: block;
+    width: 400px;
+    text-decoration: none;
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     color: white;
 
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .company ul p li a {
 =======
 .company li a {
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+.company ul p li a {
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     text-decoration: none;
     color: white;
 
@@ -475,18 +524,26 @@ footer {
 .products {
     display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 400px;
 =======
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+    width: 400px;
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     padding: 20px;
 
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .products ul p li a {
 =======
 .products li a {
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+.products ul p li a {
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -497,9 +554,13 @@ footer {
 .others {
     display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 400px;
 =======
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+    width: 400px;
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     text-decoration: none;
 
 
@@ -507,10 +568,14 @@ footer {
 
 a {
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-decoration: none;
 =======
 
 >>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
+=======
+    text-decoration: none;
+>>>>>>> 6a60f7c8b426e1b3b5ec160a9427d6b0176aba80
     align-content: flex-start;
     height: 200px;
     color: white;
