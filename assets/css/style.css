@@ -33,16 +33,6 @@ span {
     height: 20px;
     width: 20px;
 }
-
-#Rebecca {
-    height: 300px;
-    width: 300px;
-    margin: 30px;
-    padding: 10px;
-    font-size: 1.5em;
-    box-shadow: 0 0 5px grey;
-}
-
 #Rebecca p,
 #John p,
 #Lavington p {
@@ -51,6 +41,7 @@ span {
     font-size: 16px;
     justify-content: center;
     font-style: bold;
+    text-align: center;
 }
 
 #Rebecca:hover,
@@ -65,7 +56,7 @@ span {
     height: 280px;
     width: 300px;
     margin: 30px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Poppins', 'Inter';
     justify-content: center;
     padding: 2px;
@@ -134,17 +125,28 @@ footer {
 #app{
 
     border-radius:20px;
-    display: inline;
+    color: red;
     box-shadow: 5px;
-    padding: 20px;
-    font-size: 1em;
+    height: 50px;
+    font-size: 1.2em;
     background-color: grey;
     color: black;
-    margin: 10px;
-    float: left;
+} 
+#apps{
+    display: grid;
+    padding: 5px;
+    background-color:tomato ;
     height: 50px;
-    width: 200px;
-} #play{
+    width:5% ;
+    color: yellow;
+
+}
+#app p{
+    padding: 10px;
+    font-size: 1.4em;
+    color: #000;
+}
+#play{
     border-radius:20px;
     display: inline;
     box-shadow: 5px;
@@ -159,9 +161,7 @@ footer {
     
 }
 #play img{
-    height:30px;
-}#app img{
-    height:40px;
+    height:20px;
 }
 /* fab fa-apple */
 .footermore>div>i {
@@ -209,4 +209,8 @@ a {
     font-family: 'Poppins', "Inter";
     padding: 1%;
     text-align: center;
+}
+span{
+    font-size: 1.2em;
+    /* color:black; */
 }
