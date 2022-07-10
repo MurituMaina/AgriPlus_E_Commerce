@@ -43,6 +43,7 @@ li>#login {
 
 }
 
+<<<<<<< HEAD
 button {
     font-size: 1em;
     background-color: #ED661F;
@@ -56,11 +57,17 @@ button {
     transform: scale(1.5);
 }
 
+=======
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 /* Body */
 body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
+<<<<<<< HEAD
 
+=======
+    left: 0;
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 
 }
 
@@ -105,10 +112,15 @@ body {
     z-index: 0;
 }
 
+<<<<<<< HEAD
 #buyingtext {
     position: absolute;
     width: 50%;
     font-size: 1.5em;
+=======
+.buyingtext {
+    position: absolute;
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     top: 8px;
     left: 16px;
     z-index: 1;
@@ -178,6 +190,7 @@ button #explore {
 .Catproducts h1 {
     justify-content: center;
     font-family: 'Poppins', 'Inter';
+<<<<<<< HEAD
 
 }
 
@@ -193,6 +206,19 @@ button #explore {
 
 }
 
+=======
+    border-bottom: 5px #ED661F solid;
+}
+
+#popular {
+    display: flex;
+    background-color: white;
+    height: 30%;
+    margin-bottom: 10px;
+
+}
+
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 #popular img {
     height: 50%;
     width: 50%;
@@ -215,11 +241,15 @@ button #explore {
     height: 25%;
 }
 
+<<<<<<< HEAD
 .new div:hover {
     transform: scale(1.15);
 }
 
 .Catproducts h2::after {
+=======
+.Catproducts h2 {
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     float: left;
     border-bottom: #ED661F 4px solid;
 }
@@ -234,6 +264,7 @@ button #explore {
 .new img {
     height: 75%;
     width: 50%;
+<<<<<<< HEAD
 }
 
 #see {
@@ -242,6 +273,16 @@ button #explore {
     float: right;
 }
 
+=======
+}
+
+#see {
+
+    position: relative;
+    float: right;
+}
+
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 /*Esteemed Customers Feedback */
 .customersfeedback {
     background-color: white;
@@ -354,8 +395,12 @@ footer {
     display: flex;
     color: white;
     padding: auto;
+<<<<<<< HEAD
     height: 1000px;
     margin: 0 0 0 0;
+=======
+    height: 500px;
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 
 }
 
@@ -368,6 +413,7 @@ footer {
 
 /* fab fa-apple */
 
+<<<<<<< HEAD
 .footermore>div>i {
     border-radius: 50%;
     margin: 10px;
@@ -376,17 +422,51 @@ footer {
     left: 0;
     background-color: lightgrey;
 
+=======
+.footermore>div> i {
+    border-radius: 50%;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    left: 0;
+    background-color: lightgrey;
+
+}
+
+.footermorert {
+    display: flex;
+    justify-content: space-evenly;
+    color: green;
+    padding: auto;
+    height: 500px;
+    width: 75%;
+    border: 10px solid #ED661F;
+    fill: #ED661F;
+    background-color: yellow;
+
+
+}
+.footermorert ul li a{
+    text-decoration: none;
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
 }
 
 .company {
     display: block;
+<<<<<<< HEAD
     width: 400px;
     text-decoration: none;
+=======
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     color: white;
 
 }
 
+<<<<<<< HEAD
 .company ul p li a {
+=======
+.company li a {
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     text-decoration: none;
     color: white;
 
@@ -394,12 +474,19 @@ footer {
 
 .products {
     display: block;
+<<<<<<< HEAD
     width: 400px;
+=======
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     padding: 20px;
 
 }
 
+<<<<<<< HEAD
 .products ul p li a {
+=======
+.products li a {
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     display: block;
     text-decoration: none;
     padding: 10px;
@@ -409,14 +496,21 @@ footer {
 
 .others {
     display: block;
+<<<<<<< HEAD
     width: 400px;
+=======
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     text-decoration: none;
 
 
 }
 
 a {
+<<<<<<< HEAD
     text-decoration: none;
+=======
+
+>>>>>>> 1fb708fd8438225c22ace9ed54dca1f7652bd8bd
     align-content: flex-start;
     height: 200px;
     color: white;
