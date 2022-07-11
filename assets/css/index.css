@@ -1,6 +1,4 @@
-@media screen and (max-width:300px) {
-    
-}
+
 *{
     width: auto;
     font-family: 'Poppins', 'Inter';
@@ -32,7 +30,7 @@ nav {
 .menu{
     display: inline;
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .menu li a:hover{
 border-bottom: #ED661F 3px solid;
@@ -55,22 +53,32 @@ li>h1>a {
 li>#login {
     color: white;
     text-decoration: none;
-    margin-left: 200px;
+<<<<<<< HEAD
+    margin-left: 100px;
+=======
+    margin-left:100px;
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
 }
 
 #getstarted {
+    display: inline;
     font-size: 1em;
     background-color: #ED661F;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     justify-content: flex-end;
 }
 
 button {
-    font-size: 1em;
     background-color: #ED661F;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
+<<<<<<< HEAD
+    z-index: 3;
+=======
+    bottom: 20px;
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
 }
 
 .explore:hover {
@@ -172,6 +180,8 @@ button #explore {
     border: none;
     text-decoration: none;
     color: white;
+    z-index: 1;
+    margin-bottom: 50px;
 }
 
 
@@ -185,17 +195,17 @@ button #explore {
     display: flex;
     background-color: white;
     color: black;
-    margin-top: 30px;
+    margin-top: 100px;
     padding: 50px;
     font-size: 1em;
-    width:92.5%;
+<<<<<<< HEAD
+    width:100%;
+    z-index:-2;
+=======
+    width:93%;
     z-index: -1;
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
     left: 0;
-}
-
-.whyweexist img {
-    height: 250px;
-    width: 500px;
 }
 #why{
     font-size: 1em;
@@ -205,12 +215,19 @@ button #explore {
 
 
 #existtxt {
+    display: block;
     justify-content: left;
     width: 50%;
 }
+#communicate{
+    float: right;
+}
+#communicate img {
+    float:right;
+    width:100%;
+    height: 200px;
+object-fit: contain;
 
-#communicate {
-    float: inline-end;
 }
 
 /* Most Popular  */
@@ -272,7 +289,7 @@ button #explore {
     padding: 50px;
     margin-top: 0;
     margin-bottom: 5px;
-    height: 25%;
+    height: 400px;
 }
 
 #chicken:hover,
@@ -300,15 +317,25 @@ button #explore {
     height: 75%;
     width: 50%;
 }
-
-#see {
-    position: relative;
+.see {
     float: right;
+    padding: 20px;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
-
-#see {
-    position: relative;
-    float: right;
-    z-index: 1;
+.see a{
     color: black;
+    background-color: white;
+}
+.fa-arrow-right{
+    color: #ED661F;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 2em;
+ }
+.see:hover{
+    border-bottom: #ED661F 5px solid;
 }
