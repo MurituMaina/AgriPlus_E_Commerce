@@ -64,6 +64,9 @@ li>#login {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
     margin-left: 100px;
 =======
     margin-left:100px;
@@ -71,9 +74,12 @@ li>#login {
 =======
     margin-left:100px;
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+<<<<<<< HEAD
 =======
     margin-left: 100px;
 >>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
+=======
+>>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
 }
 
 #getstarted {
@@ -99,10 +105,15 @@ button {
 =======
     bottom: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
 =======
 >>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
+=======
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+>>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
 }
 
 .explore:hover {
@@ -229,6 +240,9 @@ button #explore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
     width:100%;
     z-index:-2;
 =======
@@ -266,6 +280,7 @@ object-fit: contain;
 <<<<<<< HEAD
 =======
 #communicate img {
+<<<<<<< HEAD
     float: right;
     width: 50%;
     height: auto;
@@ -276,6 +291,14 @@ object-fit: contain;
 =======
     object-fit: contain;
 >>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
+=======
+    float:right;
+    width:50%;
+    height: auto;
+object-fit: contain;
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+>>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
 }
 
 
