@@ -1,11 +1,13 @@
-@media screen and (max-width:300px) {
-    
-}
-*{
+@media screen and (max-width:300px) {}
+
+* {
     width: auto;
     font-family: 'Poppins', 'Inter';
 }
+
+
 /* Head and Nav Bar */
+
 nav>ul>li>a {
     text-decoration: none;
 }
@@ -27,15 +29,16 @@ nav {
     display: flex;
     padding: 10px;
     background-color: black;
-    
 }
-.menu{
+
+.menu {
     display: inline;
     margin: auto;
     font-size: 1.1em;
 }
-.menu li a:hover{
-border-bottom: #ED661F 3px solid;
+
+.menu li a:hover {
+    border-bottom: #ED661F 3px solid;
 }
 
 #agp {
@@ -55,7 +58,7 @@ li>h1>a {
 li>#login {
     color: white;
     text-decoration: none;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
 #getstarted {
@@ -71,7 +74,6 @@ button {
     color: white;
     font-size: 1.2em;
     bottom: 20px;
-
 }
 
 .explore:hover {
@@ -80,18 +82,21 @@ button {
     transform: scale(1.5);
 }
 
+
 /* Body */
+
 body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
-    margin:0;
+    margin: 0;
     left: 0;
     right: 0;
 }
 
-/* First Section about AgriPlus */
-.Abt1 {
 
+/* First Section about AgriPlus */
+
+.Abt1 {
     background-repeat: no-repeat;
     position: relative;
     top: 0;
@@ -155,7 +160,6 @@ body {
     position: absolute;
     justify-content: center;
     right: 200px;
-    
     align-content: center;
     z-index: 1;
     height: 100px;
@@ -177,11 +181,13 @@ button #explore {
 
 
 /* Why we exist Section */
-#uwhy{
+
+#uwhy {
     border-bottom: #ED661F 5px solid;
     color: black;
     font-family: 'Poppins', 'Inter';
-    }
+}
+
 .whyweexist {
     display: flex;
     background-color: white;
@@ -189,16 +195,16 @@ button #explore {
     margin-top: 100px;
     padding: 50px;
     font-size: 1em;
-    width:93%;
+    width: 92.5%;
     z-index: -1;
     left: 0;
 }
-#why{
-    font-size: 1em;
-     color: black;
-     font-family: 'Poppins', 'Inter';
-}
 
+#why {
+    font-size: 1em;
+    color: black;
+    font-family: 'Poppins', 'Inter';
+}
 
 #existtxt {
     justify-content: left;
@@ -206,14 +212,15 @@ button #explore {
 }
 
 #communicate img {
-    float:right;
-    width:50%;
+    float: right;
+    width: 50%;
     height: auto;
-object-fit: contain;
-
+    object-fit: contain;
 }
 
+
 /* Most Popular  */
+
 .product-feedback {
     background-color: white;
     padding: 50px;
@@ -258,7 +265,9 @@ object-fit: contain;
     width: 50%;
 }
 
+
 /* Newest Items */
+
 .newest {
     width: 100%;
     background-color: white;
@@ -300,25 +309,32 @@ object-fit: contain;
     height: 75%;
     width: 50%;
 }
+
 .see {
     float: right;
-    padding: 20px;
+    padding: 20;
+    font-size: 2em;
     width: auto;
     margin-top: 50px;
     margin-right: 20px;
     margin-bottom: 50px;
 }
-.see a{
+
+.see a {
     color: black;
     background-color: white;
+    ;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     color: #ED661F;
     background-color: white;
     width: 20px;
     height: 20px;
     font-size: 2em;
- }
-.see:hover{
+}
+
+.see:hover {
     border-bottom: #ED661F 5px solid;
+    transform: scale(1.25);
 }
