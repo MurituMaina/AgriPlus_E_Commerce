@@ -1,448 +1,366 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-* {
-=======
-<<<<<<< HEAD
-
-*{
-=======
-=======
->>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
-* {
->>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
->>>>>>> 086fab43c328bb216c1e027f14fee28f5c352410
-    width: auto;
-    font-family: 'Poppins', 'Inter';
-}
-
-
-/* Head and Nav Bar */
-
-nav>ul>li>a {
-    text-decoration: none;
-}
-
-nav>ul>li>a:hover {
-    border-bottom: #ED661F 3px solid;
-}
-
-li {
-    display: inline-block;
-    justify-content: center;
-    margin-right: 10px;
-    font-size: 1em;
-    text-decoration: none;
-    color: white
-}
-
-nav {
-    display: flex;
-    padding: 10px;
-    background-color: black;
-}
-
-.menu {
-    display: inline;
-    margin: auto;
-    font-size: 1.1em;
-}
-
-.menu li a:hover {
-    border-bottom: #ED661F 3px solid;
-}
-
-#agp {
-    display: inline;
-    margin-right: 500px;
-}
-
-#agp:hover {
-    text-shadow: 5px 5px 10px #ED661F;
-}
-
-li>h1>a {
-    color: white;
-    text-decoration: none;
-}
-
-li>#login {
-    color: white;
-    text-decoration: none;
-<<<<<<< HEAD
-    margin-left: 100px;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
-    margin-left: 100px;
-=======
-    margin-left:100px;
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-=======
-    margin-left:100px;
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-<<<<<<< HEAD
-=======
-    margin-left: 100px;
->>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
-=======
->>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
->>>>>>> 086fab43c328bb216c1e027f14fee28f5c352410
-}
-
-#getstarted {
-    display: inline;
-    font-size: 1em;
-    background-color: #ED661F;
-    color: white;
-    font-size: 1.2em;
-    justify-content: flex-end;
-}
-
-button {
-    background-color: #ED661F;
-    color: white;
-    font-size: 1.2em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    z-index: 3;
-=======
-    bottom: 20px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-=======
-    bottom: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-=======
->>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
-=======
-
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
->>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
->>>>>>> 086fab43c328bb216c1e027f14fee28f5c352410
-}
-
-.explore:hover {
-    padding: 50px;
-    box-shadow: 3px 3px 20px #ED661F;
-    transform: scale(1.5);
-}
-
-
-/* Body */
-
-body {
-    background-color: lightgrey;
-    font-family: 'Poppins', 'Inter';
-    margin: 0;
-    left: 0;
-    right: 0;
-}
-
-
-/* First Section about AgriPlus */
-
-.Abt1 {
-    background-repeat: no-repeat;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-#apimg {
-    position: relative;
-    height: 500px;
-    width: 100%;
-    top: 0;
-    right: 0;
-    background-repeat: no-repeat;
-}
-
-#fruits {
-    position: absolute;
-    right: 0;
-    top: 100px;
-    width: 50%;
-}
-
-.buying:first-child {
-    height: 400px;
-    top: 0;
-    left: 0;
-    position: relative;
-    z-index: -1;
-}
-
-.buying {
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    height: 300px;
-    width: 100%;
-    z-index: 0;
-}
-
-#buyingtext {
-    position: absolute;
-    width: 50%;
-    font-size: 1em;
-}
-
-.buyingtext {
-    position: absolute;
-}
-
-#buyingtext {
-    position: absolute;
-    width: 50%;
-    font-size: 1.5em;
-    top: 8px;
-    left: 16px;
-    z-index: 1;
-}
-
-#users {
-    background-color: white;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    right: 200px;
-    align-content: center;
-    z-index: 1;
-    height: 100px;
-    width: 50%;
-    box-shadow: 0 0 2px lightgrey;
-}
-
-#users>div {
-    margin: 10px 30px;
-}
-
-button #explore {
-    background-color: #ED661F;
-    float: left;
-    border: none;
-    text-decoration: none;
-    color: white;
-    z-index: 1;
-    margin-bottom: 50px;
-}
-
-
-/* Why we exist Section */
-
-#uwhy {
-    border-bottom: #ED661F 5px solid;
-    color: black;
-    font-family: 'Poppins', 'Inter';
-}
-
-.whyweexist {
-    display: flex;
-    background-color: white;
-    color: black;
-    margin-top: 100px;
-    padding: 50px;
-    font-size: 1em;
-<<<<<<< HEAD
-    width: 92.5%;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
-    width:100%;
-    z-index:-2;
-=======
-=======
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-    width:93%;
-=======
-    width: 92.5%;
->>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
->>>>>>> 086fab43c328bb216c1e027f14fee28f5c352410
-    z-index: -1;
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-    left: 0;
-}
-
-#why {
-    font-size: 1em;
-    color: black;
-    font-family: 'Poppins', 'Inter';
-}
-
-#existtxt {
-    display: block;
-    justify-content: left;
-    width: 50%;
-}
-#communicate{
-    float: right;
-}
-#communicate img {
-    float:right;
-    width:100%;
-    height: 200px;
-object-fit: contain;
-
-<<<<<<< HEAD
-=======
-#communicate img {
-<<<<<<< HEAD
-    float: right;
-    width: 50%;
-    height: auto;
-    object-fit: contain;
-=======
-<<<<<<< HEAD
-    float: right;
-    width: 50%;
-    height: auto;
-<<<<<<< HEAD
-object-fit: contain;
-
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
-=======
-    object-fit: contain;
->>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
-=======
-    float:right;
-    width:50%;
-    height: auto;
-object-fit: contain;
-
->>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
->>>>>>> 8e481b7752933c2fd8d4404dfd16a6e8850ff5fe
->>>>>>> 086fab43c328bb216c1e027f14fee28f5c352410
-}
-
-
-/* Most Popular  */
-
-.product-feedback {
-    background-color: white;
-    padding: 50px;
-}
-
-.Catproducts {
-    text-align: center;
-    width: 100%;
-    height: 50px;
-    padding: 50px;
-}
-
-.Catproducts h1 {
-    justify-content: center;
-    font-family: 'Poppins', 'Inter';
-}
-
-#carrots:hover,
-#cereals:hover,
-#fish:hover,
-#kales:hover {
-    transform: scale(1.2);
-}
-
-#popular {
-    display: flex;
-    background-color: white;
-    height: 30%;
-    margin-bottom: 10px;
-    padding: 30px;
-}
-
-#popular {
-    display: flex;
-    background-color: white;
-    height: 30%;
-    margin-bottom: 10px;
-}
-
-#popular img {
-    height: 50%;
-    width: 50%;
-}
-
-
-/* Newest Items */
-
-.newest {
-    width: 100%;
-    background-color: white;
-    border-bottom: #ED661F;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.new {
-    background-color: white;
-    padding: 50px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    height: 400px;
-}
-
-#chicken:hover,
-#rice:hover,
-#mursik:hover,
-#tomatoes:hover {
-    transform: scale(1.15);
-}
-
-.Catproducts h2::after {
-    border-bottom: #ED661F solid 2px;
-}
-
-.Catproducts h2 {
-    float: left;
-    border-bottom: #ED661F 4px solid;
-}
-
-.images {
-    background-color: white;
-    display: flex;
-}
-
-.new img {
-    height: 75%;
-    width: 50%;
-}
-
-.see {
-    float: right;
-    padding: 20px;
-    font-size: 2em;
-    width: auto;
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-}
-
-.see a {
-    color: black;
-    background-color: white;
-    ;
-}
-
-.fa-arrow-right {
-    color: #ED661F;
-    background-color: white;
-    width: 20px;
-    height: 20px;
-    font-size: 2em;
-}
-
-.see:hover {
-    border-bottom: #ED661F 5px solid;
-    transform: scale(1.25);
-}
+ * {
+     width: auto;
+     font-family: 'Poppins', 'Inter';
+ }
+
+ /* Head and Nav Bar */
+
+ nav>ul>li>a {
+     text-decoration: none;
+ }
+
+ nav>ul>li>a:hover {
+     border-bottom: #ED661F 3px solid;
+ }
+
+ li {
+     display: inline-block;
+     justify-content: center;
+     margin-right: 10px;
+     font-size: 1em;
+     text-decoration: none;
+     color: white
+ }
+
+ nav {
+     display: flex;
+     padding: 10px;
+     background-color: black;
+ }
+
+ .menu {
+     display: inline;
+     margin: auto;
+     font-size: 1.1em;
+ }
+
+ .menu li a:hover {
+     border-bottom: #ED661F 3px solid;
+ }
+
+ #agp {
+     display: inline;
+     margin-right: 500px;
+ }
+
+ #agp:hover {
+     text-shadow: 5px 5px 10px #ED661F;
+ }
+
+ li>h1>a {
+     color: white;
+     text-decoration: none;
+ }
+
+ li>#login {
+     color: white;
+     text-decoration: none;
+     margin-left: 100px;
+     margin-left: 100px;
+     margin-left: 100px;
+     margin-left: 100px;
+     margin-left: 100px;
+ }
+
+ #getstarted {
+     display: inline;
+     font-size: 1em;
+     background-color: #ED661F;
+     color: white;
+     font-size: 1.2em;
+     justify-content: flex-end;
+ }
+
+ button {
+     background-color: #ED661F;
+     color: white;
+     font-size: 1.2em;
+     z-index: 3;
+     bottom: 20px;
+     bottom: 20px;
+ }
+
+ .explore:hover {
+     padding: 50px;
+     box-shadow: 3px 3px 20px #ED661F;
+     transform: scale(1.5);
+ }
+
+ /* Body */
+
+ body {
+     background-color: lightgrey;
+     font-family: 'Poppins', 'Inter';
+     margin: 0;
+     left: 0;
+     right: 0;
+ }
+
+ /* First Section about AgriPlus */
+
+ .Abt1 {
+     background-repeat: no-repeat;
+     position: relative;
+     top: 0;
+     left: 0;
+ }
+
+ #apimg {
+     position: relative;
+     height: 500px;
+     width: 100%;
+     top: 0;
+     right: 0;
+     background-repeat: no-repeat;
+ }
+
+ #fruits {
+     position: absolute;
+     right: 0;
+     top: 100px;
+     width: 50%;
+ }
+
+ .buying:first-child {
+     height: 400px;
+     top: 0;
+     left: 0;
+     position: relative;
+     z-index: -1;
+ }
+
+ .buying {
+     background-repeat: no-repeat;
+     margin-top: 0px;
+     height: 300px;
+     width: 100%;
+     z-index: 0;
+ }
+
+ #buyingtext {
+     position: absolute;
+     width: 50%;
+     font-size: 1em;
+ }
+
+ .buyingtext {
+     position: absolute;
+ }
+
+ #buyingtext {
+     position: absolute;
+     width: 50%;
+     font-size: 1.5em;
+     top: 8px;
+     left: 16px;
+     z-index: 1;
+ }
+
+ #users {
+     background-color: white;
+     display: flex;
+     position: absolute;
+     justify-content: center;
+     right: 200px;
+     align-content: center;
+     z-index: 1;
+     height: 100px;
+     width: 50%;
+     box-shadow: 0 0 2px lightgrey;
+ }
+
+ #users>div {
+     margin: 10px 30px;
+ }
+
+ button #explore {
+     background-color: #ED661F;
+     float: left;
+     border: none;
+     text-decoration: none;
+     color: white;
+     z-index: 1;
+     margin-bottom: 50px;
+ }
+
+ /* Why we exist Section */
+
+ #uwhy {
+     border-bottom: #ED661F 5px solid;
+     color: black;
+     font-family: 'Poppins', 'Inter';
+ }
+
+ .whyweexist {
+     display: flex;
+     background-color: white;
+     color: black;
+     margin-top: 100px;
+     padding: 50px;
+     font-size: 1em;
+     width: 92.5%;
+     width: 100%;
+     z-index: -2;
+     width: 93%;
+     width: 92.5%;
+     z-index: -1;
+     left: 0;
+ }
+
+ #why {
+     font-size: 1em;
+     color: black;
+     font-family: 'Poppins', 'Inter';
+ }
+
+ #existtxt {
+     display: block;
+     justify-content: left;
+     width: 50%;
+ }
+
+ #communicate {
+     float: right;
+ }
+
+ #communicate img {
+     float: right;
+     width: 100%;
+     height: 200px;
+     object-fit: contain;
+ }
+
+ #communicate img {
+     float: right;
+     width: 50%;
+     height: auto;
+     object-fit: contain;
+     float: right;
+     width: 50%;
+     height: auto;
+     object-fit: contain;
+     object-fit: contain;
+     float: right;
+     width: 50%;
+     height: auto;
+     object-fit: contain;
+ }
+
+ /* Most Popular  */
+
+ .product-feedback {
+     background-color: white;
+     padding: 50px;
+ }
+
+ .Catproducts {
+     text-align: center;
+     width: 100%;
+     height: 50px;
+     padding: 50px;
+ }
+
+ .Catproducts h1 {
+     justify-content: center;
+     font-family: 'Poppins', 'Inter';
+ }
+
+ #carrots:hover,
+ #cereals:hover,
+ #fish:hover,
+ #kales:hover {
+     transform: scale(1.2);
+ }
+
+ #popular {
+     display: flex;
+     background-color: white;
+     height: 30%;
+     margin-bottom: 10px;
+     padding: 30px;
+ }
+
+ #popular {
+     display: flex;
+     background-color: white;
+     height: 30%;
+     margin-bottom: 10px;
+ }
+
+ #popular img {
+     height: 50%;
+     width: 50%;
+ }
+
+ /* Newest Items */
+
+ .newest {
+     width: 100%;
+     background-color: white;
+     border-bottom: #ED661F;
+     margin-bottom: 0;
+     padding-bottom: 0;
+ }
+
+ .new {
+     background-color: white;
+     padding: 50px;
+     margin-top: 0;
+     margin-bottom: 5px;
+     height: 400px;
+ }
+
+ #chicken:hover,
+ #rice:hover,
+ #mursik:hover,
+ #tomatoes:hover {
+     transform: scale(1.15);
+ }
+
+ .Catproducts h2::after {
+     border-bottom: #ED661F solid 2px;
+ }
+
+ .Catproducts h2 {
+     float: left;
+     border-bottom: #ED661F 4px solid;
+ }
+
+ .images {
+     background-color: white;
+     display: flex;
+ }
+
+ .new img {
+     height: 75%;
+     width: 50%;
+ }
+
+ .see {
+     float: right;
+     padding: 20px;
+     font-size: 2em;
+     width: auto;
+     margin-top: 50px;
+     margin-right: 20px;
+     margin-bottom: 50px;
+ }
+
+ .see a {
+     color: black;
+     background-color: white;
+     ;
+ }
+
+ .fa-arrow-right {
+     color: #ED661F;
+     background-color: white;
+     width: 20px;
+     height: 20px;
+     font-size: 2em;
+ }
+
+ .see:hover {
+     border-bottom: #ED661F 5px solid;
+     transform: scale(1.25);
+ }
