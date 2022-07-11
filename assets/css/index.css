@@ -54,7 +54,11 @@ li>#login {
     color: white;
     text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 100px;
+=======
+    margin-left:100px;
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
 =======
     margin-left:100px;
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
@@ -74,7 +78,12 @@ button {
     color: white;
     font-size: 1.2em;
 <<<<<<< HEAD
+<<<<<<< HEAD
     z-index: 3;
+=======
+    bottom: 20px;
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
 =======
     bottom: 20px;
 
@@ -199,9 +208,12 @@ button #explore {
     padding: 50px;
     font-size: 1em;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width:100%;
     z-index:-2;
 =======
+=======
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
     width:93%;
     z-index: -1;
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
@@ -228,6 +240,15 @@ button #explore {
     height: 200px;
 object-fit: contain;
 
+<<<<<<< HEAD
+=======
+#communicate img {
+    float:right;
+    width:50%;
+    height: auto;
+object-fit: contain;
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
 }
 
 /* Most Popular  */
