@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 
 *{
+=======
+* {
+>>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
     width: auto;
     font-family: 'Poppins', 'Inter';
 }
+
+
 /* Head and Nav Bar */
+
 nav>ul>li>a {
     text-decoration: none;
 }
@@ -25,15 +32,16 @@ nav {
     display: flex;
     padding: 10px;
     background-color: black;
-    
 }
-.menu{
+
+.menu {
     display: inline;
     margin: auto;
     font-size: 1.1em;
 }
-.menu li a:hover{
-border-bottom: #ED661F 3px solid;
+
+.menu li a:hover {
+    border-bottom: #ED661F 3px solid;
 }
 
 #agp {
@@ -54,10 +62,18 @@ li>#login {
     color: white;
     text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 100px;
 =======
     margin-left:100px;
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+=======
+    margin-left:100px;
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+=======
+    margin-left: 100px;
+>>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
 }
 
 #getstarted {
@@ -74,11 +90,19 @@ button {
     color: white;
     font-size: 1.2em;
 <<<<<<< HEAD
+<<<<<<< HEAD
     z-index: 3;
 =======
     bottom: 20px;
 
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+=======
+    bottom: 20px;
+<<<<<<< HEAD
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+=======
+>>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
 }
 
 .explore:hover {
@@ -87,18 +111,21 @@ button {
     transform: scale(1.5);
 }
 
+
 /* Body */
+
 body {
     background-color: lightgrey;
     font-family: 'Poppins', 'Inter';
-    margin:0;
+    margin: 0;
     left: 0;
     right: 0;
 }
 
-/* First Section about AgriPlus */
-.Abt1 {
 
+/* First Section about AgriPlus */
+
+.Abt1 {
     background-repeat: no-repeat;
     position: relative;
     top: 0;
@@ -162,7 +189,6 @@ body {
     position: absolute;
     justify-content: center;
     right: 200px;
-    
     align-content: center;
     z-index: 1;
     height: 100px;
@@ -186,11 +212,13 @@ button #explore {
 
 
 /* Why we exist Section */
-#uwhy{
+
+#uwhy {
     border-bottom: #ED661F 5px solid;
     color: black;
     font-family: 'Poppins', 'Inter';
-    }
+}
+
 .whyweexist {
     display: flex;
     background-color: white;
@@ -199,20 +227,27 @@ button #explore {
     padding: 50px;
     font-size: 1em;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width:100%;
     z-index:-2;
 =======
+=======
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
     width:93%;
+=======
+    width: 92.5%;
+>>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
     z-index: -1;
 >>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
     left: 0;
 }
-#why{
-    font-size: 1em;
-     color: black;
-     font-family: 'Poppins', 'Inter';
-}
 
+#why {
+    font-size: 1em;
+    color: black;
+    font-family: 'Poppins', 'Inter';
+}
 
 #existtxt {
     display: block;
@@ -228,9 +263,24 @@ button #explore {
     height: 200px;
 object-fit: contain;
 
+<<<<<<< HEAD
+=======
+#communicate img {
+    float: right;
+    width: 50%;
+    height: auto;
+<<<<<<< HEAD
+object-fit: contain;
+
+>>>>>>> 29a4eb8adb74f2821cf61f982a6e0bfbb8cdb84f
+=======
+    object-fit: contain;
+>>>>>>> 01afbcfce5c7b9a954848e50f7fbd801f303f8db
 }
 
+
 /* Most Popular  */
+
 .product-feedback {
     background-color: white;
     padding: 50px;
@@ -275,7 +325,9 @@ object-fit: contain;
     width: 50%;
 }
 
+
 /* Newest Items */
+
 .newest {
     width: 100%;
     background-color: white;
@@ -317,25 +369,32 @@ object-fit: contain;
     height: 75%;
     width: 50%;
 }
+
 .see {
     float: right;
     padding: 20px;
+    font-size: 2em;
     width: auto;
     margin-top: 50px;
     margin-right: 20px;
     margin-bottom: 50px;
 }
-.see a{
+
+.see a {
     color: black;
     background-color: white;
+    ;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     color: #ED661F;
     background-color: white;
     width: 20px;
     height: 20px;
     font-size: 2em;
- }
-.see:hover{
+}
+
+.see:hover {
     border-bottom: #ED661F 5px solid;
+    transform: scale(1.25);
 }
