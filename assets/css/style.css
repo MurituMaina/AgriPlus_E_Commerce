@@ -2,8 +2,8 @@
 
 .customersfeedback {
     background-color: white;
-    height: 500px;
-    padding: 20px;
+    height: 600px;
+    padding: 10px;
     margin-top: 10px;
 }
 
@@ -75,6 +75,17 @@ span {
     float: right;
     text-decoration: none;
     color: white;
+}
+
+.read a {
+    display: block;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+    background-color: red;
+    text-decoration: none;
+    color: black;
+    float: right;
 }
 
 
